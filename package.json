@@ -1,13 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+  "private": true,"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "dependencies": {
     "framer-motion": "^12.23.27",
     "next": "16.1.1",

@@ -84,10 +84,10 @@ export default function Home() {
   ];
 
   const socialLinks: SocialLink[] = [
-    { icon: <FaFacebook style={{ color: "#1877F2" }} />, link: "#" },
-    { icon: <FaLinkedin style={{ color: "#0A66C2" }} />, link: "#" },
-    { icon: <FaWhatsapp style={{ color: "#25D366" }} />, link: "#" },
-    { icon: <FaGithub style={{ color: "#FFFFFF" }} />, link: "#" },
+    { icon: <FaFacebook style={{ color: "#1877F2" }} />, link: "https://www.facebook.com/rehanalianjum" },
+    { icon: <FaLinkedin style={{ color: "#0A66C2" }} />, link: "https://www.linkedin.com/in/rehan-ali-anjum" },
+    { icon: <FaWhatsapp style={{ color: "#25D366" }} />, link: "https://wa.me/923268715535" },
+    { icon: <FaGithub style={{ color: "#FFFFFF" }} />, link: "https://github.com/rehanalianjum16-dev" },
   ];
 
   const services: Service[] = [
@@ -137,7 +137,7 @@ export default function Home() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/CV.pdf"; // apna CV path
+    link.href = "/cv.pdf"; // apna CV path
     link.download = "cv.pdf";
     document.body.appendChild(link);
     link.click();
